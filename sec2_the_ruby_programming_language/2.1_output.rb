@@ -27,7 +27,7 @@ puts greeting
 
 #defining a method
 def say_hello
-    puts "Hello World"
+  puts "Hello World"
 end
 
 #calling the method
@@ -37,7 +37,7 @@ say_hello
 
 #defining a method that takes argument
 def say_hello(things_to_say)
-    puts things_to_say
+  puts things_to_say
 end
 
 say_hello "Hello Zi Qiang"
