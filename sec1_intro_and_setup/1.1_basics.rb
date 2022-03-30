@@ -11,7 +11,7 @@ p address
 p address[5]
 
 #assigning new_address to store the reverse of the array
-new_address = address.reverse!
+address.reverse!
 
 #print out the new_address
-p new_address
+p address
