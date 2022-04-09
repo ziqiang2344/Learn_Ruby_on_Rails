@@ -84,5 +84,4 @@ puts
 z.each{|nice| print nice.capitalize + " "} #My Name Is Qiang
 puts
 z = (1..10).to_a.shuffle
-p z.select {|number| number.odd?}
-
+p z.select {|number| number.odd?} #[9, 1, 5, 7, 3]
