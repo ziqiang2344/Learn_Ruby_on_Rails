@@ -36,15 +36,6 @@ puts x.to_f   #5.0
 puts "hello".to_i #0
 puts "hello".to_f #0.00
 
-#Simple calculator
-puts "Simple calculator"
-25.times { print "-"}
-puts "\nEnter the first number"
-num_1 = gets.chomp
-puts "Enter the second number"
-num_2 = gets.chomp
-puts "The first number multiplied by the second number is #{num_1.to_i * num_2.to_i}" 
-
 #Methods
 puts 22.odd?  #false
 puts 22.even? #true
