@@ -3,7 +3,7 @@ def multiply(first, second)
   first.to_f * second.to_f
 end
 
-def divide(first,second)
+def divide(first, second)
   first.to_f / second.to_f
 end
 
@@ -15,7 +15,7 @@ def add(first, second)
   first.to_f - second.to_f
 end
 
-def mod(first,second)
+def mod(first, second)
   first.to_f % second.to_f
 end
 
