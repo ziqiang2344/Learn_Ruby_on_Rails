@@ -1,7 +1,7 @@
 #Hashes a.k.a.dictionary
 
-samples_hash ={'a'=> 1, 'b'=> 2, 'c'=> 3}
-my_details = {'name' => 'mashrur','favcolor'=> 'red'}
+samples_hash = {'a' => 1, 'b' => 2, 'c' => 3}
+my_details = {'name' => 'mashrur','favcolor' => 'red'}
 p my_details['favcolor']  #"red"
 p samples_hash['b']       #2
 p samples_hash            #{"a"=>1, "b"=>2, "c"=>3}
