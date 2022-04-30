@@ -11,9 +11,9 @@ puts "Enter 1 for multiply, 2 for addition, 3 for subtraction"
 user_entry = gets.chomp
 if user_entry == "1"
   puts "You have chosen to multiply"
-elseif user_entry == "2"
+elsif user_entry == "2"
   puts "You have chosen to add"
-elseif user_entry == "3"
+elsif user_entry == "3"
   puts "You have chosen to subtract"
 else
   puts "Invalid entry"
