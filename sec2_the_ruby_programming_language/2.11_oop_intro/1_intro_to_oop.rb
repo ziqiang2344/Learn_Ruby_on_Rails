@@ -14,6 +14,7 @@ class User
     puts "Hey I am a class method"
   end
 end
+
 user = User.new("ziqiang", "ziqiang@example.com")
 user.run                   #Hey I'm running
 User.identify_yourself     #Hey I am a class method
