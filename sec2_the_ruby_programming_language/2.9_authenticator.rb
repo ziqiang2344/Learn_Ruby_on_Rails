@@ -1,10 +1,10 @@
 users = [
-          {username: "mashrur", password: "password1"},
-          {username: "jack", password: "password2"},
-          {username: "arya", password: "password3"},
-          {username: "jonshow", password: "password4"},
-          {username: "heisenberg", password: "password5"}
-        ]
+  {username: "mashrur", password: "password1"},
+  {username: "jack", password: "password2"},
+  {username: "arya", password: "password3"},
+  {username: "jonshow", password: "password4"},
+  {username: "heisenberg", password: "password5"}
+  ]
 
 #authetication method to check and verify if username/password cominations exists
 def auth_user(username, password, list_of_users)
