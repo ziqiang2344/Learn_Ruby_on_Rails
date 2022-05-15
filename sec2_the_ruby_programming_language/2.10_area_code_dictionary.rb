@@ -23,7 +23,6 @@ end
    
 # Execution flow
 loop do
-  
   puts "Do you want to lookup an area code based on a city name?[Y/N]"
   answer = gets.chomp.downcase
   break if answer != "y"
