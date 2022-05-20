@@ -1,18 +1,17 @@
 class Student
-    attr_accessor :first_name, :last_name, :email, :username, :password #allow both setter and getter function
+  attr_accessor :first_name, :last_name, :email, :username, :password #allow both setter and getter function
 
-    def initialize(firstname,lastname,username,email,password)
-      @first_name = firstname
-      @last_name = lastname
-      @email = email
-      @username = username
-      @password = password
-    end
+  def initialize(firstname,lastname,username,email,password)
+    @first_name = firstname
+    @last_name = lastname
+    @email = email
+    @username = username
+    @password = password
+  end
 
-    def to_s
-      "First name: #{@first_name}, Last name: #{@last_name},Username: #{@Username}, Email address: #{@email}"
-    end
-
+  def to_s
+    "First name: #{@first_name}, Last name: #{@last_name},Username: #{@Username}, Email address: #{@email}"
+  end
 end
 
 qiang = Student.new("qiang","lim","qiang123","qiang@example.com","password123")
