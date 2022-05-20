@@ -9,6 +9,7 @@ class User
   def run
     puts "Hey I'm running"
   end
+
   #The instance of the user is not needed to run this class method
   def self.identify_yourself
     puts "Hey I am a class method"
