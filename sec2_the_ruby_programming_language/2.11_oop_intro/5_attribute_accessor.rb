@@ -1,7 +1,7 @@
 class Student
   attr_accessor :first_name, :last_name, :email, :username #allow both setter and getter function
   attr_reader :username #allow getter function only
-    
+
   @first_name
   @last_name
   @email
