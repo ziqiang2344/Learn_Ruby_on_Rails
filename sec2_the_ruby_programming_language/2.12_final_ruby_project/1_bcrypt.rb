@@ -9,4 +9,4 @@ puts my_password_1
 puts my_password_2
 
 puts my_password == my_password_1   #-> false
-puts my_password == "my password "  #-> true
+puts my_password == "my password"  #-> true

@@ -1,11 +1,11 @@
 require 'bcrypt'
 
 users = [
-    {username: "qiang", password: "password1"},
-    {username: "pineapple", password: "password2"},
-    {username: "orange", password: "password3"},
-    {username: "dragonfruit", password: "password4"},
-    {username: "papaya", password: "password5"}
+  {username: "qiang", password: "password1"},
+  {username: "pineapple", password: "password2"},
+  {username: "orange", password: "password3"},
+  {username: "dragonfruit", password: "password4"},
+  {username: "papaya", password: "password5"}
 ]
 
 # Hash the password
