@@ -10,7 +10,7 @@ class Student
   end
 
   def to_s
-    "First name: #{@first_name}, Last name: #{@last_name},Username: #{@Username}, Email address: #{@email}"
+    "First name: #{@first_name}, Last name: #{@last_name}, Username: #{@Username}, Email address: #{@email}"
   end
 end
 
