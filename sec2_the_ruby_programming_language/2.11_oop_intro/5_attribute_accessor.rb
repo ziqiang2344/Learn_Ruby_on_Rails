@@ -1,21 +1,20 @@
 class Student
-    attr_accessor :first_name, :last_name, :email, :username #allow both setter and getter function
-    attr_reader :username #allow getter function only
-    
-    @first_name
-    @last_name
-    @email
-    @username
-    @password
+  attr_accessor :first_name, :last_name, :email, :username #allow both setter and getter function
+  attr_reader :username #allow getter function only
 
-    def set_username
-      @username = "qiang123"
-    end
+  @first_name
+  @last_name
+  @email
+  @username
+  @password
 
-    def to_s
-      "First name: #{@first_name}"
-    end
+  def set_username
+    @username = "qiang123"
+  end
 
+  def to_s
+    "First name: #{@first_name}"
+  end
 end
 
 qiang = Student.new
